@@ -42,15 +42,66 @@ function diffDeuxNombres(a, b) {
 }
 console.log(diffDeuxNombres(5, 10)); // Résultat attendu : 10
 
-//8
+// 8
 function convertirEnCelsius(fahrenheit) {
   return ((fahrenheit - 32) * 5) / 9;
 }
 console.log(convertirEnCelsius(100)); // Résultat attendu : 37.7778
 
-//9
-function estMajeur(age) {
-  return;
+// 1.2
+function sumTwoNumber(a, b) {
+  return a + b;
 }
-console.log(estMajeur(20)); // Résultat attendu : true
-console.log(estMajeur(16)); // Résultat attendu : false
+console.log(sumTwoNumber(10, 10));
+
+// 2.2
+function concatenateStrings(str1, str2) {
+  return str1 + str2;
+}
+console.log(concatenateStrings("Bonjour", "Bonsoir"));
+
+// 3.2
+function isEven(n) {
+  return n % 2 == 0;
+}
+console.log(isEven(5));
+
+// 4.2
+function rectangleArea(width, height) {
+  return width * height;
+}
+console.log(rectangleArea(10, 15));
+
+// 5.2
+function isAdult(age) {
+  return age >= 18;
+}
+console.log(isAdult(15));
+
+// 6.2
+function isPositive(n) {
+  return n > 0;
+}
+console.log(isPositive(-10));
+
+// 7.2
+function minTwoNumbers(a, b) {
+  return Math.min(a, b);
+}
+console.log(minTwoNumbers(20, 10));
+
+// 8.2
+//function isPalindrome(str) {}
+//console.log(isPalindrome("kayak"));
+
+// 9.2
+function maxThreeNumbers(a, b, c) {
+  return Math.max(a, b, c);
+}
+console.log(maxThreeNumbers(67, 1500, 999));
+
+// 10.2
+function multiplyTwoNumbers(a, b) {
+  return a * b;
+}
+console.log(multiplyTwoNumbers(100, 1));
