@@ -107,23 +107,35 @@
 //console.log(multiplyTwoNumbers(100, 1));
 
 // discount calculator
-let price = prompt("price");
-if (price <= 0 || NaN) {
-  alert("Price not valid");
-}
+// let price = prompt("price");
+//if (price <= 0 || NaN) {
+//  alert("Price not valid");
+//}
 
-let remiseEtudiant = price - (15 * price) / 100;
-let remiseSoldes = price - (20 * price) / 100;
-let remiseFidelite = price - (10 * price) / 100;
-let aucuneRemise = price - (0 * price) / 100;
+//let remiseEtudiant = price - (15 * price) / 100;
+//let remiseSoldes = price - (20 * price) / 100;
+//let remiseFidelite = price - (10 * price) / 100;
+//let aucuneRemise = price - (0 * price) / 100;
 
-let discount = prompt("discount");
-if (discount == "etudiant") {
-  alert(remiseEtudiant + " $");
-} else if (discount == "soldes") {
-  alert(remiseSoldes + " $");
-} else if (discount == "fidelite") {
-  alert(remiseFidelite + " $");
-} else if (discount == "aucune") {
-  alert(aucuneRemise + " $");
+// let discount = prompt("discount");
+//if (discount == "etudiant") {
+//  alert(remiseEtudiant + " $");
+//} else if (discount == "soldes") {
+//  alert(remiseSoldes + " $");
+//} else if (discount == "fidelite") {
+//  alert(remiseFidelite + " $");
+//} else if (discount == "aucune") {
+//  alert(aucuneRemise + " $");
+//}
+
+//Fibonacci
+
+function fibonacci(n) {
+  if (n == 0) {
+    return 0;
+  } else if (n == 1) {
+    return (n = 0 + 1);
+  } else if (n > 1) {
+  }
 }
+console.log(fibonacci(3));
